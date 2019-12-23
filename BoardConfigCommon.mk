@@ -39,6 +39,9 @@ TARGET_NO_BOOTLOADER := true
 
 # Use Snapdragon LLVM if available on build server
 SDCLANG := true
+TARGET_USE_SDCLANG := true
+SDCLANG_PATH := vendor/qcom/sdclang-8.0/linux-x86/bin
+SDCLANG_LTO_DEFS := vendor/aosp/sdclang/sdllvm-lto-defs.mk
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
