@@ -40,6 +40,7 @@ EXTRA_VENDOR_LIBRARIES_32 := \
     libpdx_default_transport \
     libselinux \
     libsonivox \
+    libstdc++ \
     libvibrator
 
 EXTRA_VENDOR_LIBRARIES_64 := \
