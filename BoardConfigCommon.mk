@@ -37,6 +37,9 @@ TARGET_2ND_CPU_VARIANT := cortex-a73
 TARGET_BOOTLOADER_BOARD_NAME := msm8998
 TARGET_NO_BOOTLOADER := true
 
+# Use Snapdragon LLVM if available on build server
+SDCLANG := true
+
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
 BOARD_KERNEL_IMAGE_NAME := Image.gz-dtb
